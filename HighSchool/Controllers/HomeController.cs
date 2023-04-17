@@ -1,24 +1,35 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using HighSchool.Models;
+using HighSchool.Services;
 
 namespace HighSchool.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly IHighSchoolService _galerinhaService;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, IHighSchoolService galerinhaService)
     {
         _logger = logger;
+        _galerinhaService = galerinhaService;
     }
 
-    public IActionResult Index()
+    public IActionResult Index(string tipo)
     {
-        return View();
+        var galera = _galerinhaService.GetHighSchoolDto();
+        ViewData["filter"] = string.IsNullOrEmpty(tipo) ? "all" : tipo;
+        return View(galera);
     }
 
-    public IActionResult Privacy()
+    public IActionResult Details(int Numero)
+    {
+        var personagem = _galerinhaService.GetDetailedPersonagem(Numero);
+        return View(personagem);
+    }
+
+    public IActionResult Privacy ()
     {
         return View();
     }

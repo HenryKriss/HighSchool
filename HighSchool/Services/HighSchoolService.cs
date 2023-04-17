@@ -3,7 +3,7 @@ using HighSchool.Models;
 
 namespace HighSchool.Services
 {
-    public class HighSchoolService
+    public class HighSchoolService : IHighSchoolService
     {
         private readonly IHttpContextAccessor _session;
         private readonly string personagemFile = @"Data\personagens.json";
