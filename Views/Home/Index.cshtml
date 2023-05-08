@@ -1,0 +1,63 @@
+﻿@model HighSchoolDto
+@inject HighSchool.Services.IHighSchoolService service
+@{
+    ViewData["Title"] = "Home";
+}
+<section class="pt-5 pb-3 text-center container">
+    <div class="row">
+        <div class="col mx-auto">
+            <h1>High School</h1>
+            <div class="group">
+                <button id="btn-all" class="btn btn-lg my-2 text-white bg-secondary btn-filter"onclick="filter('all')">Ver Todos</button>
+                @foreach (var habilidade in Model.Habilidades)
+                {
+                    <button id="btn-@habilidade.Nome.ToLower()" class="btn btn-sm my-2 text-white btn-filter" onclick="filter('@habilidade.Nome.ToLower()')" style="background-color:@habilidade.Cor">@habilidade.Nome</button>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="album py-5 bg-light">
+    <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+
+            <!-- Card personagem - Inicio -->
+            @foreach (var personagem in Model.Personagens)
+            {
+                <div class="col">
+                    <div class="card shadow-sm cursor-pointer @string.Join(' ',personagem.Habilidades).ToLower()" onclick="GetInfo(@personagem.Numero)">
+                        <img src="@personagem.Imagem" class="card-img-top" width="100%"height="300" alt="@personagem.Nome"/>
+                        <div class="card-body">
+                            <p class="card-text mb-0">Nº @personagem.Numero.ToString("000")</p>
+                            <h3 class="card-title">@personagem.Nome</h3>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    @foreach (var habilidade in personagem.Habilidades)
+                                    {
+                                        <a asp-action="Index" asp-routehabilidade="@habilidade.ToLower()" class="btn my-2 text-white" style="background-color:@service.GetHabilidade(habilidade).Cor">@habilidade</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            }
+            <!-- Card personagem - Fim -->
+
+
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/js/site.js"></script>
+    <script>
+        let toFilter = '@Html.Raw(ViewData["Filter"])';
+        filter(toFilter);
+
+        function GetInfo(number) {
+            window.location = '@Url.Action("Details", "Home")' + '?Numero=' + number;
+        }
+    </script>
+}
