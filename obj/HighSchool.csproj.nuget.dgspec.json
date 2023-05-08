@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaick Borges\\Desktop\\HighSchool\\HighSchool.csproj": {}
+    "C:\\Users\\etec\\Desktop\\HighSchool\\HighSchool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaick Borges\\Desktop\\HighSchool\\HighSchool.csproj": {
+    "C:\\Users\\etec\\Desktop\\HighSchool\\HighSchool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaick Borges\\Desktop\\HighSchool\\HighSchool.csproj",
+        "projectUniqueName": "C:\\Users\\etec\\Desktop\\HighSchool\\HighSchool.csproj",
         "projectName": "HighSchool",
-        "projectPath": "C:\\Users\\Kaick Borges\\Desktop\\HighSchool\\HighSchool.csproj",
-        "packagesPath": "C:\\Users\\Kaick Borges\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaick Borges\\Desktop\\HighSchool\\obj\\",
+        "projectPath": "C:\\Users\\etec\\Desktop\\HighSchool\\HighSchool.csproj",
+        "packagesPath": "C:\\Users\\etec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\etec\\Desktop\\HighSchool\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kaick Borges\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\etec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -56,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

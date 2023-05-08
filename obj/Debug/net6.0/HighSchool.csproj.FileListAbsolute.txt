@@ -54,3 +54,31 @@ C:\Users\Kaick Borges\Desktop\HighSchool\obj\Debug\net6.0\refint\HighSchool.dll
 C:\Users\Kaick Borges\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.pdb
 C:\Users\Kaick Borges\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.genruntimeconfig.cache
 C:\Users\Kaick Borges\Desktop\HighSchool\obj\Debug\net6.0\ref\HighSchool.dll
+C:\Users\etec\Desktop\HighSchool\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\etec\Desktop\HighSchool\bin\Debug\net6.0\appsettings.json
+C:\Users\etec\Desktop\HighSchool\bin\Debug\net6.0\Data\habilidades.json
+C:\Users\etec\Desktop\HighSchool\bin\Debug\net6.0\Data\personagens.json
+C:\Users\etec\Desktop\HighSchool\bin\Debug\net6.0\HighSchool.staticwebassets.runtime.json
+C:\Users\etec\Desktop\HighSchool\bin\Debug\net6.0\HighSchool.exe
+C:\Users\etec\Desktop\HighSchool\bin\Debug\net6.0\HighSchool.deps.json
+C:\Users\etec\Desktop\HighSchool\bin\Debug\net6.0\HighSchool.runtimeconfig.json
+C:\Users\etec\Desktop\HighSchool\bin\Debug\net6.0\HighSchool.dll
+C:\Users\etec\Desktop\HighSchool\bin\Debug\net6.0\HighSchool.pdb
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.csproj.AssemblyReference.cache
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.AssemblyInfoInputs.cache
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.AssemblyInfo.cs
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.csproj.CoreCompileInputs.cache
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.RazorAssemblyInfo.cache
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.RazorAssemblyInfo.cs
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\scopedcss\bundle\HighSchool.styles.css
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\scopedcss\projectbundle\HighSchool.bundle.scp.css
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.dll
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\refint\HighSchool.dll
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.pdb
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\HighSchool.genruntimeconfig.cache
+C:\Users\etec\Desktop\HighSchool\obj\Debug\net6.0\ref\HighSchool.dll
