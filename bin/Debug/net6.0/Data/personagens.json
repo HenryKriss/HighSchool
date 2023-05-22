@@ -6,7 +6,7 @@
     "Habilidades": [ "Canto", "Atuação" ] ,
     "Altura": 1.65,
     "Peso": 54.0,
-    "Imagem": "\\img\\HighSchool\\001.png"
+    "Imagem": "\\img\\HighSchool\\01.jpg"
   },
   {
     "Numero": 2,
@@ -15,7 +15,7 @@
     "Habilidades": [ "Canto", "Violão" ] ,
     "Altura": 1.80,
     "Peso": 75.0,
-    "Imagem": "\\img\\HighSchool\\002.png"
+    "Imagem": "\\img\\HighSchool\\02.jpg"
   },
   {
     "Numero": 3,
@@ -24,7 +24,7 @@
     "Habilidades": [ "Dança", "Canto" ] ,
     "Altura": 1.80,
     "Peso": 55.0,
-    "Imagem": "\\img\\HighSchool\\002.png"
+    "Imagem": "\\img\\HighSchool\\03.jpg"
   },
   {
     "Numero": 4,
@@ -33,7 +33,7 @@
     "Habilidades": [ "Esportes", "Canto" ] ,
     "Altura": 1.78,
     "Peso": 65.0,
-    "Imagem": "\\img\\HighSchool\\002.png"
+    "Imagem": "\\img\\HighSchool\\04.jpg"
   },
   {
     "Numero": 5,
@@ -42,7 +42,7 @@
     "Habilidades": [ "Dança", "Coreógrafo" ] ,
     "Altura": 1.74,
     "Peso": 65.0,
-    "Imagem": "\\img\\HighSchool\\002.png"
+    "Imagem": "\\img\\HighSchool\\05.jpg"
   },
   {
     "Numero": 6,
@@ -51,7 +51,7 @@
     "Habilidades": [ "Estilo", "Canto" ] ,
     "Altura": 1.74,
     "Peso": 75.0,
-    "Imagem": "\\img\\HighSchool\\002.png"
+    "Imagem": "\\img\\HighSchool\\06.jpg"
   },
   {
     "Numero": 7,
@@ -60,7 +60,7 @@
     "Habilidades": [ "Compor", "Canto" ] ,
     "Altura": 1.73,
     "Peso": 70.0,
-    "Imagem": "\\img\\HighSchool\\002.png"
+    "Imagem": "\\HighSchool\\img\\07.jpg"
   },
   {
     "Numero": 8,
